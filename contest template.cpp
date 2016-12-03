@@ -38,7 +38,7 @@ using namespace std;
 #define pi  acos(-1.0)
 #define MAX 200007
 #define MOD 1000000007LL
-#define eps 1e-13
+#define eps 1e-11
 
 template <class T>T sqr(T x) {return x*x;}
 template< class T > T gcd(T a, T b) { return (b != 0 ? gcd<T>(b, a%b) : a); }
@@ -87,9 +87,7 @@ void nCr()
 }
 
 
-*/
 /******************* Code Starts here *******************/
-
 
 int main()
 {
